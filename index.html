@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hair salon LUXE | 東京・表参道のヘアサロン</title>
+  <meta name="description" content="hair salon LUXE。あなたの美しさを引き出す、こだわりのヘアサロン。カット・カラー・パーマはお任せください。">
+  <link rel="stylesheet" href="main-style.css">
+</head>
+<body>
+
+  <!-- ========================================
+    ヘッダー / ナビゲーション
+  ======================================== -->
+  <header class="header" id="top">
+    <div class="header__inner">
+      <a href="#top" class="header__logo">hair salon LUXE</a>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li><a href="#concept">コンセプト</a></li>
+          <li><a href="#menu">メニュー</a></li>
+          <li><a href="#gallery">ギャラリー</a></li>
+          <li><a href="#staff">スタッフ</a></li>
+          <li><a href="#reviews">お客様の声</a></li>
+          <li><a href="#access">アクセス</a></li>
+        </ul>
+      </nav>
+      <a href="#reservation" class="header__cta-btn">ご予約</a>
+      <!-- ハンバーガーメニュー（スマホ用） -->
+      <button class="header__hamburger" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========================================
+      ヒーロー（メインビジュアル）
+    ======================================== -->
+    <section class="hero" id="hero">
+      <div class="hero__inner">
+        <p class="hero__sub">Welcome to</p>
+        <h1 class="hero__title">hair salon LUXE</h1>
+        <p class="hero__copy">あなたの美しさに、もっと自信を。<br>上質な時間と技術で、理想のスタイルへ。</p>
+      </div>
+    </section>
+
+    <!-- ========================================
+      コンセプト / About
+    ======================================== -->
+    <section class="concept" id="concept">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-label">Concept</p>
+          <h2 class="section-title">私たちのこだわり</h2>
+        </div>
+        <div class="concept__content">
+          <div class="concept__text">
+            <p class="concept__lead">一人ひとりの「なりたい」に寄り添う</p>
+            <p class="concept__body">
+              hair salon LUXEは、お客様一人ひとりの個性と魅力を最大限に引き出すことを
+              大切にしています。丁寧なカウンセリングから始まり、髪質・顔型・ライフスタイルに
+              合わせたオーダーメイドのスタイルをご提案します。
+            </p>
+            <p class="concept__body">
+              使用するのはすべて厳選された高品質な薬剤のみ。
+              髪と頭皮へのダメージを最小限に抑えながら、美しい仕上がりを実現します。
+            </p>
+          </div>
+          <div class="concept__image">
+            <img src="salon-interior/salon-interior.jpg" alt="hair salon LUXE サロン内観">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+      メニュー / 料金
+    ======================================== -->
+    <section class="menu" id="menu">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-label">Menu & Price</p>
+          <h2 class="section-title">メニュー・料金</h2>
+        </div>
+        <div class="menu__grid">
+
+          <!-- メニューカード：カット -->
+          <article class="menu-card">
+            <h3 class="menu-card__name">カット</h3>
+            <ul class="menu-card__list">
+              <li><span class="menu-card__item">カット</span><span class="menu-card__price">¥6,600〜</span></li>
+              <li><span class="menu-card__item">前髪カット</span><span class="menu-card__price">¥1,650〜</span></li>
+            </ul>
+          </article>
+
+          <!-- メニューカード：カラー -->
+          <article class="menu-card">
+            <h3 class="menu-card__name">カラー</h3>
+            <ul class="menu-card__list">
+              <li><span class="menu-card__item">リタッチカラー</span><span class="menu-card__price">¥7,700〜</span></li>
+              <li><span class="menu-card__item">フルカラー</span><span class="menu-card__price">¥9,900〜</span></li>
+              <li><span class="menu-card__item">インナーカラー</span><span class="menu-card__price">¥11,000〜</span></li>
+              <li><span class="menu-card__item">ハイライト</span><span class="menu-card__price">¥13,200〜</span></li>
+            </ul>
+          </article>
+
+          <!-- メニューカード：パーマ -->
+          <article class="menu-card">
+            <h3 class="menu-card__name">パーマ</h3>
+            <ul class="menu-card__list">
+              <li><span class="menu-card__item">パーマ</span><span class="menu-card__price">¥11,000〜</span></li>
+              <li><span class="menu-card__item">デジタルパーマ</span><span class="menu-card__price">¥15,400〜</span></li>
+              <li><span class="menu-card__item">縮毛矯正</span><span class="menu-card__price">¥17,600〜</span></li>
+            </ul>
+          </article>
+
+          <!-- メニューカード：トリートメント -->
+          <article class="menu-card">
+            <h3 class="menu-card__name">トリートメント</h3>
+            <ul class="menu-card__list">
+              <li><span class="menu-card__item">集中トリートメント</span><span class="menu-card__price">¥3,300〜</span></li>
+              <li><span class="menu-card__item">ヘッドスパ</span><span class="menu-card__price">¥4,400〜</span></li>
+            </ul>
+          </article>
+
+        </div>
+        <p class="menu__note">※表示価格はすべて税込みです。髪の長さ・状態により料金が変わる場合があります。</p>
+        <div class="menu__cta">
+          <a href="#reservation" class="btn btn--primary">このメニューで予約する</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+      クーポン情報
+    ======================================== -->
+    <section class="coupon" id="coupon">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-label">Coupon</p>
+          <h2 class="section-title">お得なクーポン</h2>
+        </div>
+        <div class="coupon__grid">
+
+          <!-- クーポンカード：初回限定 -->
+          <article class="coupon-card coupon-card--featured">
+            <p class="coupon-card__tag">初回限定</p>
+            <h3 class="coupon-card__title">ご新規様 20% OFF</h3>
+            <p class="coupon-card__desc">はじめてのご来店に限り、全メニューが20%OFFになります。この機会にぜひお試しください。</p>
+            <p class="coupon-card__condition">※他のクーポンとの併用不可</p>
+            <a href="#reservation" class="btn btn--primary">このクーポンで予約</a>
+          </article>
+
+          <!-- クーポンカード：WEB予約限定 -->
+          <article class="coupon-card">
+            <p class="coupon-card__tag">WEB予約限定</p>
+            <h3 class="coupon-card__title">トリートメント 無料</h3>
+            <p class="coupon-card__desc">このページからWEB予約いただいたお客様全員に、集中トリートメント（通常¥3,300）をプレゼント。</p>
+            <p class="coupon-card__condition">※カットまたはカラーと同時施術に限る</p>
+            <a href="#reservation" class="btn btn--outline">このクーポンで予約</a>
+          </article>
+
+          <!-- クーポンカード：誕生月 -->
+          <article class="coupon-card">
+            <p class="coupon-card__tag">誕生月特典</p>
+            <h3 class="coupon-card__title">お誕生月 10% OFF</h3>
+            <p class="coupon-card__desc">お誕生月のご来店でご利用いただける特別クーポンです。大切な月をLUXEで過ごしませんか？</p>
+            <p class="coupon-card__condition">※ご予約時に誕生月をお知らせください</p>
+            <a href="#reservation" class="btn btn--outline">このクーポンで予約</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+      スタイルギャラリー
+    ======================================== -->
+    <section class="gallery" id="gallery">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-label">Gallery</p>
+          <h2 class="section-title">スタイルギャラリー</h2>
+        </div>
+        <div class="gallery__grid">
+          <div class="gallery__item"><img src="style-photos/style-01.jpg" alt="スタイルギャラリー 1"></div>
+          <div class="gallery__item"><img src="style-photos/style-02.jpg" alt="スタイルギャラリー 2"></div>
+          <div class="gallery__item"><img src="style-photos/style-03.jpg" alt="スタイルギャラリー 3"></div>
+          <div class="gallery__item"><img src="style-photos/style-04.jpg" alt="スタイルギャラリー 4"></div>
+          <div class="gallery__item"><img src="style-photos/style-05.jpg" alt="スタイルギャラリー 5"></div>
+          <div class="gallery__item"><img src="style-photos/style-06.jpg" alt="スタイルギャラリー 6"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+      スタッフ紹介
+    ======================================== -->
+    <section class="staff" id="staff">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-label">Staff</p>
+          <h2 class="section-title">スタッフ紹介</h2>
+        </div>
+        <div class="staff__grid">
+
+          <!-- スタッフカード -->
+          <article class="staff-card">
+            <div class="staff-card__photo">
+              <img src="stylist/hanako-yamada.jpg" alt="山田 花子">
+            </div>
+            <h3 class="staff-card__name">山田 花子</h3>
+            <p class="staff-card__role">オーナースタイリスト</p>
+            <p class="staff-card__comment">
+              「毎日鏡を見るのが楽しくなるような、そんなヘアスタイルをご提案します。お気軽にご相談ください。」
+            </p>
+          </article>
+
+          <!-- スタッフカード -->
+          <article class="staff-card">
+            <div class="staff-card__photo">
+              <img src="stylist/misaki-suzuki.jpg" alt="鈴木 美咲">
+            </div>
+            <h3 class="staff-card__name">鈴木 美咲</h3>
+            <p class="staff-card__role">スタイリスト</p>
+            <p class="staff-card__comment">
+              「カラーが得意です。お客様の肌トーンに合ったベストカラーをご提案いたします。」
+            </p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+      お客様の声（口コミ）
+    ======================================== -->
+    <section class="reviews" id="reviews">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-label">Reviews</p>
+          <h2 class="section-title">お客様の声</h2>
+        </div>
+        <div class="reviews__grid">
+
+          <!-- 口コミカード -->
+          <article class="review-card">
+            <div class="review-card__stars" aria-label="星5つ">★★★★★</div>
+            <p class="review-card__text">
+              「カウンセリングがとても丁寧で、なりたいイメージをしっかり汲み取ってもらえました。仕上がりも大満足です！」
+            </p>
+            <p class="review-card__author">30代・会社員</p>
+          </article>
+
+          <!-- 口コミカード -->
+          <article class="review-card">
+            <div class="review-card__stars" aria-label="星5つ">★★★★★</div>
+            <p class="review-card__text">
+              「ずっと悩んでいた髪のパサつきが改善されました。トリートメントの効果が本当にすごい。また来ます！」
+            </p>
+            <p class="review-card__author">20代・学生</p>
+          </article>
+
+          <!-- 口コミカード -->
+          <article class="review-card">
+            <div class="review-card__stars" aria-label="星5つ">★★★★★</div>
+            <p class="review-card__text">
+              「落ち着いた雰囲気で、施術中もゆったりできます。カラーの発色もきれいで、友達にも勧めました。」
+            </p>
+            <p class="review-card__author">40代・主婦</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+      アクセス / 営業情報
+    ======================================== -->
+    <section class="access" id="access">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-label">Access</p>
+          <h2 class="section-title">アクセス・営業情報</h2>
+        </div>
+        <div class="access__content">
+          <div class="access__info">
+            <dl class="access__detail">
+              <div class="access__row">
+                <dt>住所</dt>
+                <dd>〒150-0001 東京都渋谷区神宮前X-XX-XX LUXEビル2F</dd>
+              </div>
+              <div class="access__row">
+                <dt>最寄り駅</dt>
+                <dd>東京メトロ銀座線「表参道駅」A2出口より徒歩3分</dd>
+              </div>
+              <div class="access__row">
+                <dt>電話</dt>
+                <dd><a href="tel:0312345678">03-1234-5678</a></dd>
+              </div>
+              <div class="access__row">
+                <dt>営業時間</dt>
+                <dd>平日 10:00〜20:00 / 土日祝 9:00〜19:00</dd>
+              </div>
+              <div class="access__row">
+                <dt>定休日</dt>
+                <dd>毎週火曜日</dd>
+              </div>
+            </dl>
+          </div>
+          <!-- Googleマップ埋め込みプレースホルダー -->
+          <div class="access__map">
+            <div class="image-placeholder map-placeholder">Googleマップ（後で埋め込み）</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================
+      予約 / お問い合わせフォーム
+    ======================================== -->
+    <section class="reservation" id="reservation">
+      <div class="section-inner">
+        <div class="section-header">
+          <p class="section-label">Reservation & Contact</p>
+          <h2 class="section-title">ご予約・お問い合わせ</h2>
+          <p class="section-desc">下記フォームにご入力いただき、送信してください。<br>確認後、2営業日以内にご連絡いたします。</p>
+        </div>
+        <form class="reservation-form" id="reservation-form" novalidate>
+
+          <div class="form-group">
+            <label class="form-label" for="name">お名前 <span class="form-required">必須</span></label>
+            <input class="form-input" type="text" id="name" name="name" placeholder="山田 花子" required>
+            <p class="form-error" id="name-error"></p>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="phone">電話番号 <span class="form-required">必須</span></label>
+            <input class="form-input" type="tel" id="phone" name="phone" placeholder="090-0000-0000" required>
+            <p class="form-error" id="phone-error"></p>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">メールアドレス <span class="form-required">必須</span></label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="example@email.com" required>
+            <p class="form-error" id="email-error"></p>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="date">ご希望日時 <span class="form-required">必須</span></label>
+            <input class="form-input" type="datetime-local" id="date" name="date" required>
+            <p class="form-error" id="date-error"></p>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="service">ご希望メニュー</label>
+            <select class="form-input form-select" id="service" name="service">
+              <option value="">選択してください</option>
+              <option value="cut">カット</option>
+              <option value="color">カラー</option>
+              <option value="perm">パーマ</option>
+              <option value="treatment">トリートメント / ヘッドスパ</option>
+              <option value="other">その他・複数メニュー</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="coupon">使用クーポン</label>
+            <select class="form-input form-select" id="coupon" name="coupon">
+              <option value="">使用しない</option>
+              <option value="first">初回限定 20% OFF</option>
+              <option value="web">WEB予約限定 トリートメント無料</option>
+              <option value="birthday">誕生月 10% OFF</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">備考・ご要望</label>
+            <textarea class="form-input form-textarea" id="message" name="message" placeholder="アレルギーや髪のお悩みなど、なんでもお気軽にご記入ください。"></textarea>
+          </div>
+
+          <div class="form-group form-group--submit">
+            <button type="submit" class="btn btn--primary btn--large">送信する</button>
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================
+    フッター
+  ======================================== -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <p class="footer__logo">hair salon LUXE</p>
+      <ul class="footer__sns">
+        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+        <li><a href="#" aria-label="Twitter / X">X（Twitter）</a></li>
+      </ul>
+      <p class="footer__copy">&copy; 2026 hair salon LUXE. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="main-script.js"></script>
+</body>
+</html>
